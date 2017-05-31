@@ -1,8 +1,6 @@
 - hosts: localhost
   vars:
-   aws_access_key: "AKIAJJ7A2SNS2WBCDRIA"
-   aws_secret_key: "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"
-   pem: "myprivatekey.pem"
+   
   tasks:
     - name: Get my current IP address
       uri:
